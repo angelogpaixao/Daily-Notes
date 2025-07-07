@@ -1,0 +1,10 @@
+header {
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: var(--header-color);
+  font-family: Calligraffitti;
+}

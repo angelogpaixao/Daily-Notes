@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Conteúdo Sobre */
+.sobre {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background-color: var(--registro-bg);
+  border: 1px solid var(--registro-border);
+  border-left: 6px solid var(--registro-border-accent);
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.sobre h2 {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.sobre p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.sobre ul {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.sobre ul li {
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Filtro */
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.filter label {
+  font-weight: bold;
+}
+
+.filter input[type="date"] {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.filter button {
+  padding: 0.5rem 1rem;
+  background-color: var(--button-bg);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.filter button:hover {
+  background-color: var(--button-hover);
+}
+
+/* Lista de registros */
+.registros {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
+
+.registro {
+  background-color: var(--registro-bg);
+  border: 1px solid var(--registro-border);
+  border-left: 6px solid var(--registro-border-accent);
+  border-radius: 4px;
+  padding: 1rem;
+  width: 100%; /* importante para o Grid */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.registro header h2 {
+  font-size: 1.2rem;
+  color: var(--header-register);
+  margin-bottom: 0.5rem;
+}
+
+.registro p {
+  margin-bottom: 0.75rem;
+  text-align: justify;
+}
+
+.ver-completo {
+  text-decoration: none;
+  color: var(--ver-completo);
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.ver-completo:hover {
+  color: var(--ver-completo-hover);
+}
+
+.ver-mais-container {
+  display: flex;
+  justify-content: center;
+  grid-column: 1 / -1; /* faz o botão ocupar toda a largura */
+}
+
+.ver-mais-container button {
+  padding: 0.75rem 1.5rem;
+  background-color: var(--button-bg);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.ver-mais-container button:hover {
+  background-color: var(--button-hover);
+}

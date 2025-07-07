@@ -1,0 +1,58 @@
+:root {
+  --bg-color: #fdfdfd;
+  --text-color: #333;
+  --header-color: #c4466f;
+  --navbar-link: #333;
+  --navbar-hover: #e2789f;
+  --button-bg: #e2789f;
+  --button-hover: #c4466f;
+  --registro-bg: #fff;
+  --registro-border: #ddd;
+  --registro-border-accent: #c4466f;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #222;
+    --text-color: #eee;
+    --header-color: #ffa9ce;
+    --navbar-bg: #333;
+    --navbar-link: #eee;
+    --navbar-hover: #555;
+    --button-bg: #555;
+    --button-hover: #777;
+    --registro-bg: #333;
+    --registro-border: #555;
+    --registro-border-accent: #ffa9ce;
+  }
+}
+
+html[data-theme="dark"] {
+  --bg-color: #222;
+  --text-color: #eee;
+  --header-color: white;
+  --header-register: white;
+  --navbar-link: #eee;
+  --navbar-hover: #555;
+  --button-bg: #555;
+  --button-hover: #777;
+  --registro-bg: #333;
+  --registro-border: #555;
+  --registro-border-accent: #555;
+  --ver-completo: #8f8f8f;
+  --ver-hover: #b4b4b4;
+}
+
+html[data-theme="light"] {
+  --bg-color: #fdfdfd;
+  --text-color: #333;
+  --header-color: #c4466f;
+  --navbar-bg: #FDD1B6;
+  --navbar-link: #333;
+  --navbar-hover: #e2789f;
+  --button-bg: #e2789f;
+  --button-hover: #c4466f;
+  --registro-bg: #fff;
+  --registro-border: #ddd;
+  --registro-border-accent: #c4466f;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre - Daily Notes</title>
+  <link rel="stylesheet" href="css/sobre.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/darkmode.css" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Calligraffitti" />
+</head>
+
+<body>
+  <header>
+    <h1><strong>Daily Notes</strong></h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="escrever.html">Escrever</a></li>
+      <li><a href="meusRegistros.html">Meus registros</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="sobre">
+      <h2>Sobre o Projeto</h2>
+      <p>
+        O <strong>Daily Notes</strong> é um projeto desenvolvido como parte do
+        <strong>Programa Desenvolve</strong>, com o objetivo de praticar e
+        consolidar os conhecimentos em HTML e CSS aprendidos durante as
+        primeiras semanas do curso.
+      </p>
+      <p>
+        No projeto, foi solicitado que cada aluno criasse uma página de diário
+        pessoal totalmente estática, utilizando HTML semântico para estruturar
+        o conteúdo e CSS para criar uma aparência visual agradável e
+        organizada.
+      </p>
+      <p>Entre os principais requisitos estavam:</p>
+      <ul>
+        <li>
+          Estruturar corretamente o HTML usando tags como
+          <strong>header</strong>, <strong>main</strong>,
+          <strong>section</strong>, <strong>article</strong>,
+          <strong>nav</strong> e <strong>footer</strong>.
+        </li>
+        <li>Criar layouts responsivos e modernos com Flexbox e Grid.</li>
+        <li>
+          Estilizar o conteúdo utilizando cores, fontes personalizadas,
+          espaçamentos e efeitos de transição.
+        </li>
+        <li>
+          Publicar páginas com conteúdo estático simulando as funcionalidades
+          de um diário digital.
+        </li>
+      </ul>
+      <p>
+        Neste projeto, foram criadas as páginas principais do Daily Notes,
+        incluindo:
+      </p>
+      <ul>
+        <li>
+          <strong>Página inicial</strong> com apresentação e botão de início.
+        </li>
+        <li>
+          <strong>Área de escrita</strong> com campo de texto e botão de
+          envio.
+        </li>
+        <li>
+          <strong>Seção de registros</strong> com listagem dos textos criados.
+        </li>
+        <li>
+          <strong>Seção de informações do projeto</strong> com detalhes e contexto do projeto.
+        </li>
+      </ul>
+      <p>Além dos requisitos principais, o projeto também explora funcionalidades opcionais, como a implementação de um
+        modo escuro (dark mode). Essa funcionalidade foi aplicada utilizando <strong>CSS Variables</strong> em conjunto
+        com a media query <code>prefers-color-scheme</code>, permitindo que o site respeite automaticamente a
+        preferência de tema claro ou escuro do sistema operacional do usuário.</p>
+      <p>Adicionalmente, foi implementado um botão flutuante usando <strong>JavaScript</strong> para permitir que o
+        usuário alterne manualmente entre os modos claro e escuro. Essa escolha é salva no <code>localStorage</code>,
+        garantindo que a preferência do usuário seja mantida mesmo ao navegar entre páginas ou atualizar o navegador.
+      </p>
+      <p>Com isso, o projeto demonstra não apenas a aplicação dos conceitos obrigatórios de HTML e CSS, mas também a
+        capacidade de expandir a interatividade e a experiência do usuário através de recursos adicionais modernos.</p>
+    </section>
+  </main>
+  <button id="toggle-darkmode" aria-label="Alternar modo escuro">🌙</button>
+  <script src="js/darkmode.js"></script>
+</body>
+
+</html>

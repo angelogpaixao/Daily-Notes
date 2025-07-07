@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.editor form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+}
+
+.editor textarea {
+  width: 80%;
+  height: 300px;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  resize: vertical;
+  margin-bottom: 1rem; /* espaço entre textarea e botão */
+  background-color: var(--registro-bg);
+  border: 1px solid var(--registro-border);
+  border-left: 6px solid var(--registro-border-accent);
+}
+
+.editor button {
+  padding: 0.75rem 1.5rem;
+  background-color: var(--button-bg);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.editor button:hover {
+  background-color: var(--button-hover);
+}
+
