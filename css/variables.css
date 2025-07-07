@@ -15,7 +15,7 @@
   :root {
     --bg-color: #222;
     --text-color: #eee;
-    --header-color: #ffa9ce;
+    --header-color: white;
     --navbar-bg: #333;
     --navbar-link: #eee;
     --navbar-hover: #555;
@@ -23,7 +23,7 @@
     --button-hover: #777;
     --registro-bg: #333;
     --registro-border: #555;
-    --registro-border-accent: #ffa9ce;
+    --registro-border-accent: #555;
   }
 }
 

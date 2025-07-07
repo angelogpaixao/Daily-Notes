@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #e2789f;
+  background-color: var(--button-bg);
   color: white;
   border: none;
   border-radius: 50%;
@@ -15,62 +15,5 @@
 }
 
 #toggle-darkmode:hover {
-  background-color: #c4466f;
-}
-
-body.darkmode {
-  background-color: #222;
-  color: #eee;
-}
-
-/* Cabeçalho */
-body.darkmode header h1 {
-  color: #ffa9ce;
-}
-
-body.darkmode nav ul li a {
-  color: #eee;
-}
-
-body.darkmode nav ul li a:hover {
-  background-color: #555;
-  color: white;
-}
-
-/* Botões gerais */
-body.darkmode button,
-body.darkmode .button,
-body.darkmode #toggle-darkmode {
-  background-color: #555;
-  color: #eee;
-}
-
-body.darkmode button:hover,
-body.darkmode .button:hover,
-body.darkmode #toggle-darkmode:hover {
-  background-color: #777;
-}
-
-/* Campos e áreas */
-body.darkmode textarea {
-  background-color: #333;
-  color: #eee;
-  border: 1px solid #555;
-  border-left: 6px solid #555;
-}
-
-/* Registros */
-body.darkmode .registro {
-  background-color: #333;
-  border-color: #555;
-}
-
-body.darkmode .registro header h2 {
-  color: #ffa9ce;
-}
-
-/* Página Sobre */
-body.darkmode .sobre {
-  background-color: #333;
-  border-color: #555;
+  background-color: var(--button-hover);
 }

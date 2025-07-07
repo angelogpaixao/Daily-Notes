@@ -1,102 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meus Registros - Daily Notes</title>
-    <link rel="stylesheet" href="css/meusRegistros.css" />
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/nav.css" />
-    <link rel="stylesheet" href="css/darkmode.css" />
-    <link rel="stylesheet" href="css/variables.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Calligraffitti"
-    />
-  </head>
-  <body>
-    <header>
-      <h1><strong>Daily Notes</strong></h1>
-    </header>
 
-    <nav>
-      <ul>
-        <li><a href="escrever.html">Escrever</a></li>
-        <li><a href="meusRegistros.html">Meus registros</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-      </ul>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meus Registros - Daily Notes</title>
+  <link rel="stylesheet" href="css/meusRegistros.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/darkmode.css" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Calligraffitti" />
+</head>
 
-    <main>
-      <section class="filter">
-        <label for="data-registro">Selecione a data:</label>
-        <input type="date" id="data-registro" name="data-registro" />
-        <button type="button">Ver Registros</button>
-      </section>
+<body>
+  <header>
+    <h1><strong>Daily Notes</strong></h1>
+  </header>
 
-      <section class="registros">
-        <article class="registro">
-          <header>
-            <h2>01/07/2025</h2>
-          </header>
-          <p>
-            Hoje foi um dia incrível. Fui ao parque, sentei sob uma árvore e
-            passei horas escrevendo sobre meus planos futuros. Senti uma paz
-            enorme ao organizar meus pensamentos e pensar no que quero realizar
-            ainda este ano. Foi também um momento especial de conexão comigo
-            mesmo, algo que não acontecia há muito tempo.
-          </p>
-          <a href="#" class="ver-completo">Ver completo...</a>
-        </article>
+  <nav>
+    <ul>
+      <li><a href="escrever.html">Escrever</a></li>
+      <li><a href="meusRegistros.html">Meus registros</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+    </ul>
+  </nav>
 
-        <article class="registro">
-          <header>
-            <h2>30/06/2025</h2>
-          </header>
-          <p>
-            Refleti sobre tudo que aprendi neste mês. Foi um período de
-            crescimento, de aprendizado em HTML e CSS, e de redescobrir o quanto
-            gosto de criar projetos visuais. Também pensei nas próximas metas
-            para julho, incluindo novos hábitos e mais disciplina com meus
-            estudos e registros diários.
-          </p>
-          <a href="#" class="ver-completo">Ver completo...</a>
-        </article>
+  <main>
+    <section class="filter">
+      <label for="data-registro">Selecione a data:</label>
+      <input type="date" id="data-registro" name="data-registro" />
+      <button type="button">Ver Registros</button>
+    </section>
 
-        <article class="registro">
-          <header>
-            <h2>29/06/2025</h2>
-          </header>
-          <p>
-            Comecei a planejar novas ideias para o meu diário online. Quero
-            torná-lo mais interativo, quem sabe adicionar fotos e registrar
-            momentos importantes com mais detalhes. Essa semana também reservei
-            tempo para relaxar, ler alguns livros e refletir sobre a importância
-            do equilíbrio.
-          </p>
-          <a href="#" class="ver-completo">Ver completo...</a>
-        </article>
+    <section class="registros">
+      <article class="registro">
+        <header>
+          <h2>01/07/2025</h2>
+        </header>
+        <p>
+          Hoje foi um dia incrível. Fui ao parque, sentei sob uma árvore e
+          passei horas escrevendo sobre meus planos futuros. Senti uma paz
+          enorme ao organizar meus pensamentos e pensar no que quero realizar
+          ainda este ano. Foi também um momento especial de conexão comigo
+          mesmo, algo que não acontecia há muito tempo.
+        </p>
+        <a href="#" class="ver-completo">Ver completo...</a>
+      </article>
 
-        <article class="registro">
-          <header>
-            <h2>28/06/2025</h2>
-          </header>
-          <p>
-            Hoje dediquei algumas horas para revisar todas as entradas do meu
-            diário e pensar em como posso melhorar meus registros. Percebi o
-            quanto evoluí ao longo dos últimos meses e como a prática diária de
-            escrita tem me ajudado a clarear ideias e definir prioridades. Foi
-            um exercício muito importante de autoconhecimento e reflexão.
-          </p>
-          <a href="#" class="ver-completo">Ver completo...</a>
-        </article>
+      <article class="registro">
+        <header>
+          <h2>30/06/2025</h2>
+        </header>
+        <p>
+          Refleti sobre tudo que aprendi neste mês. Foi um período de
+          crescimento, de aprendizado em HTML e CSS, e de redescobrir o quanto
+          gosto de criar projetos visuais. Também pensei nas próximas metas
+          para julho, incluindo novos hábitos e mais disciplina com meus
+          estudos e registros diários.
+        </p>
+        <a href="#" class="ver-completo">Ver completo...</a>
+      </article>
 
-        <div class="ver-mais-container">
-          <button type="button">Ver mais...</button>
-        </div>
-      </section>
-    </main>
-    <button id="toggle-darkmode" aria-label="Alternar modo escuro">🌙</button>
-    <script src="js/darkmode.js"></script>
-  </body>
+      <article class="registro">
+        <header>
+          <h2>29/06/2025</h2>
+        </header>
+        <p>
+          Comecei a planejar novas ideias para o meu diário online. Quero
+          torná-lo mais interativo, quem sabe adicionar fotos e registrar
+          momentos importantes com mais detalhes. Essa semana também reservei
+          tempo para relaxar, ler alguns livros e refletir sobre a importância
+          do equilíbrio.
+        </p>
+        <a href="#" class="ver-completo">Ver completo...</a>
+      </article>
+
+      <article class="registro">
+        <header>
+          <h2>28/06/2025</h2>
+        </header>
+        <p>
+          Hoje dediquei algumas horas para revisar todas as entradas do meu
+          diário e pensar em como posso melhorar meus registros. Percebi o
+          quanto evoluí ao longo dos últimos meses e como a prática diária de
+          escrita tem me ajudado a clarear ideias e definir prioridades. Foi
+          um exercício muito importante de autoconhecimento e reflexão.
+        </p>
+        <a href="#" class="ver-completo">Ver completo...</a>
+      </article>
+
+      <div class="ver-mais-container">
+        <button type="button">Ver mais...</button>
+      </div>
+    </section>
+  </main>
+  <button id="toggle-darkmode" aria-label="Alternar modo escuro">🌙</button>
+  <script src="js/darkmode.js"></script>
+  <footer>
+    <p>&copy; 2025 Daily Notes. Projeto desenvolvido para Programa Desenvolve.</p>
+  </footer>
+
+</body>
+
 </html>
